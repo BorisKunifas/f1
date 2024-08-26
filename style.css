@@ -1,0 +1,255 @@
+html {
+  width: 100%;
+}
+
+/* Image Grid*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 15%;
+    padding: 0 4px;
+    margin: 10px;
+  }
+  
+  .column img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .main-img {
+    display: block;
+    width: 100%;
+  }
+
+  .img-container {
+    position: relative;
+    width: 100%;
+    border: black;
+    border-width: 10px;
+  }
+
+  .main-img:hover+.popup-img {
+    opacity: 1;
+  }
+  
+  .popup-img {
+    position: absolute;
+    top: -85%;
+    left: 0;
+    width: 150%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    scale: 125%;
+  }
+
+  /* End */
+
+  .a1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .a2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .a3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fafafa;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .a4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-right: 150px;
+    columns: 2;
+    column-gap: 50px;
+  }
+
+  .a1b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .a2b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .a3b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .a4b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-right: 150px;
+    columns: 2;
+    column-gap: 50px;
+  }
+
+  .line {
+    width:250px;
+    height:3px;
+    background: black;
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+    margin-top: -35px;
+  }
+
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0;
+    padding:0 0;
+}
+
+
+header{
+    padding:20px 0;
+}
+
+.logo{
+    width:50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width:50%;
+    text-align:right;
+}
+
+.menu a{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.carrinho {
+  position: absolute;
+  width: 550px;
+  margin-left: 65%;
+  margin-top: 15%;
+}
+
+.extras{
+    position:absolute;
+    bottom:-150px;
+    right: -500px;
+    width:1100px;
+    height:500px;
+    border-radius: 50%;
+    background-color: #B50000;
+}
+
+.carro{
+    position:absolute;
+    right: 10px;
+    bottom: -75px;
+    transform: scaleX(-1);
+}
+
+.rectangle{
+    width:fit-content;
+    height:fit-content;
+    background: #B50000;
+    margin-top:25px;
+    right: -500px;
+    border-radius: 10px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 34px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.ctatext{
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+h1{
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 75px;
+ 
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 75px;
+
+}
+
+.pistas {
+  width: 200%;
+}
+
+.column2 {
+  flex: 25%;
+  max-width: 20%;
+  padding: 0 4px;
+  margin: 50px;
+}
+
+.bgrec{
+  width: 100%;
+  background-color: #B50000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
